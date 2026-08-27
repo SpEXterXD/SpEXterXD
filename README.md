@@ -157,7 +157,7 @@ Infrastructure  Docker · Git · GitHub · Postman
 <p align="center">
   <img
     src="./assets/signal.svg"
-    width="420"
+    width="100%"
     alt="Animated signal"
   />
 </p>
