@@ -1,23 +1,29 @@
-<svg viewBox="0 0 700 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" role="img" aria-labelledby="title desc">
+  <title id="title">Animated footer</title>
+  <desc id="desc">Minimal moving system line.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 45H860" stroke="#fff" stroke-opacity=".07"/>
+  <rect x="40" y="44" width="820" height="1" fill="url(#fade)"/>
 
-  <path d="M20 50
-       C70 50 70 35 120 35
-       S170 65 220 65
-       S270 30 320 30
-       S370 70 420 70
-       S470 38 520 38
-       S570 50 680 50" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"></path>
+  <circle r="2.5" fill="#fff">
+    <animate attributeName="cx" values="60;840;60" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="45;45;45" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.8;.8;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-  <path d="M20 50
-       C70 50 70 35 120 35
-       S170 65 220 65
-       S270 30 320 30
-       S370 70 420 70
-       S470 38 520 38
-       S570 50 680 50" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="8 160">
+  <circle cx="450" cy="45" r="3" fill="#fff">
+    <animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".8;.3;.8" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
 
-    <animate attributeName="stroke-dashoffset" from="0" to="-336" dur="3s" repeatCount="indefinite"></animate>
-
-  </path>
-
+  <circle cx="450" cy="45" r="8" fill="none" stroke="#fff" stroke-opacity=".13">
+    <animate attributeName="r" values="8;18;8" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".25;0;.25" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
 </svg>

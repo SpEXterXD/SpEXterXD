@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">About</title>
+  <desc id="desc">Minimal animated section header.</desc>
+  <defs>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="180" rx="28"/></clipPath>
+  </defs>
+  <rect width="1200" height="180" rx="28" fill="#0b0b0d"/>
+  <g clip-path="url(#clip)">
+    <g stroke="#fff" stroke-opacity=".035">
+      <path d="M0 45h1200M0 90h1200M0 135h1200"/>
+      <path d="M100 0v180M200 0v180M300 0v180M400 0v180M500 0v180M600 0v180M700 0v180M800 0v180M900 0v180M1000 0v180M1100 0v180"/>
+    </g>
+    <rect x="-180" width="180" height="180" fill="url(#scan)">
+      <animate attributeName="x" from="-180" to="1200" dur="11s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="82" text-anchor="middle"
+      fill="#fff" font-family="Arial,Helvetica,sans-serif"
+      font-size="38" font-weight="600" letter-spacing="8">ABOUT</text>
+    <rect x="330" y="105" width="540" height="1" fill="url(#line)"/>
+    <rect x="330" y="105" width="70" height="1" fill="#fff" opacity=".17">
+      <animate attributeName="x" values="330;800;330" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="600" cy="105" r="3" fill="#fff">
+      <animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="105" r="8" fill="none" stroke="#fff" stroke-opacity=".14">
+      <animate attributeName="r" values="8;19;8" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;0;.35" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="105" r="2" fill="#fff">
+      <animate attributeName="opacity" values=".15;.55;.15" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="870" cy="105" r="2" fill="#fff">
+      <animate attributeName="opacity" values=".55;.15;.55" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

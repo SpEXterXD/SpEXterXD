@@ -1,27 +1,105 @@
-<svg viewBox="0 0 1200 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Toolkit</title>
+  <desc id="desc">Minimal animated technical network for the toolkit section.</desc>
+  <defs>
+    <linearGradient id="edgeFade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b0b0d"/>
+      <stop offset=".09" stop-color="#0b0b0d" stop-opacity="0"/>
+      <stop offset=".91" stop-color="#0b0b0d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".055"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="net" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".035"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".035"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="190" rx="28"/></clipPath>
+  </defs>
 
-  <rect width="1200" height="100" rx="24" fill="#0b0b0d"></rect>
+  <rect width="1200" height="190" rx="28" fill="#0b0b0d"/>
 
-  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
-    <line x1="80" y1="25" x2="1120" y2="25"></line>
-    <line x1="80" y1="50" x2="1120" y2="50"></line>
-    <line x1="80" y1="75" x2="1120" y2="75"></line>
+  <g clip-path="url(#clip)">
+    <g stroke="#fff" stroke-opacity=".032">
+      <path d="M0 38h1200M0 76h1200M0 114h1200M0 152h1200"/>
+      <path d="M100 0v190M200 0v190M300 0v190M400 0v190M500 0v190M600 0v190M700 0v190M800 0v190M900 0v190M1000 0v190M1100 0v190"/>
+    </g>
+
+    <rect x="-220" width="220" height="190" fill="url(#scan)">
+      <animate attributeName="x" from="-220" to="1200" dur="12s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- abstract system graph -->
+    <g fill="none" stroke="url(#net)" stroke-width="1.2">
+      <path d="M165 116L280 94L395 110L510 86L600 98L690 86L805 110L920 94L1035 116"/>
+      <path d="M280 94L330 62L455 62"/>
+      <path d="M395 110L450 145L555 141"/>
+      <path d="M510 86L550 52"/>
+      <path d="M690 86L650 52"/>
+      <path d="M805 110L750 145L645 141"/>
+      <path d="M920 94L870 62L745 62"/>
+    </g>
+
+    <g fill="#fff">
+      <circle cx="165" cy="116" r="2"/>
+      <circle cx="280" cy="94" r="3"/>
+      <circle cx="395" cy="110" r="2"/>
+      <circle cx="510" cy="86" r="3"/>
+      <circle cx="600" cy="98" r="3.5"/>
+      <circle cx="690" cy="86" r="3"/>
+      <circle cx="805" cy="110" r="2"/>
+      <circle cx="920" cy="94" r="3"/>
+      <circle cx="1035" cy="116" r="2"/>
+      <circle cx="330" cy="62" r="2"/>
+      <circle cx="455" cy="62" r="2"/>
+      <circle cx="550" cy="52" r="2"/>
+      <circle cx="650" cy="52" r="2"/>
+      <circle cx="745" cy="62" r="2"/>
+      <circle cx="870" cy="62" r="2"/>
+      <circle cx="450" cy="145" r="2"/>
+      <circle cx="555" cy="141" r="2"/>
+      <circle cx="645" cy="141" r="2"/>
+      <circle cx="750" cy="145" r="2"/>
+    </g>
+
+    <!-- restrained code -->
+    <g font-family="monospace" font-size="10.5" fill="#fff">
+      <text x="72" y="37" fill-opacity=".34">const model = pipeline("speech")</text>
+      <text x="430" y="31" fill-opacity=".28">POST /api/inference</text>
+      <text x="770" y="41" fill-opacity=".30">&gt; docker compose up</text>
+      <text x="885" y="146" fill-opacity=".27">embeddings → model → output</text>
+      <text x="505" y="158" fill-opacity=".25">async function process()</text>
+      <text x="170" y="148" fill-opacity=".25">SELECT * FROM systems</text>
+      <text x="610" y="120" fill-opacity=".38">&gt; learn</text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="668" y="110" width="5" height="11" fill="#fff">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- data pulse -->
+    <circle r="2.7" fill="#fff">
+      <animateMotion dur="8s" repeatCount="indefinite"
+        path="M165 116L280 94L395 110L510 86L600 98L690 86L805 110L920 94L1035 116"/>
+      <animate attributeName="opacity" values="0;.85;.85;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- focus ring -->
+    <circle cx="600" cy="98" r="8" fill="none" stroke="#fff" stroke-opacity=".14">
+      <animate attributeName="r" values="8;22;8" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;0;.35" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="250" y="172" width="700" height="1" fill="url(#net)"/>
+    <circle cx="600" cy="172" r="2" fill="#fff">
+      <animate attributeName="opacity" values=".2;.7;.2" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <g fill="#ffffff">
-
-    <circle cx="140" cy="50" r="2">
-      <animate attributeName="cx" values="140;1060;140" dur="7s" repeatCount="indefinite"></animate>
-    </circle>
-
-    <circle cx="900" cy="25" r="2">
-      <animate attributeName="cx" values="900;180;900" dur="5s" repeatCount="indefinite"></animate>
-    </circle>
-
-    <circle cx="360" cy="75" r="2">
-      <animate attributeName="cx" values="360;1000;360" dur="6s" repeatCount="indefinite"></animate>
-    </circle>
-
-  </g>
-
+  <rect width="1200" height="190" fill="url(#edgeFade)" pointer-events="none"/>
 </svg>

@@ -22,28 +22,68 @@
   <a href="https://github.com/spexterxd">GitHub</a>
   ·
   <a href="https://leetcode.com/spexterxd">LeetCode</a>
-  ·
-  <a href="mailto:nirmalya03561@gmail.com">Email</a>
 </p>
 
 ---
 
 ## About
 
-I am a Computer Science undergraduate interested in the space between
-**software engineering and intelligent systems**.
+<p align="center">
+  <img
+    src="./assets/about.svg"
+    width="100%"
+    alt="About"
+  />
+</p>
 
-My work moves between building full-stack applications and exploring
-machine learning problems, particularly around **speech and language**.
+I am a Computer Science undergraduate focused on **software engineering,
+machine learning, and speech AI**.
 
-I currently work as a research intern at **IIT Kharagpur**, exploring
+My work sits at the intersection of building practical software and
+exploring intelligent systems, with a particular interest in **speech,
+language, and deep learning**.
+
+I currently work as a **Research Intern at IIT Kharagpur**, exploring
 speech biomarker models and questions surrounding accent and speaker
 diversity.
 
-Previously, I worked on end-to-end **automatic speech recognition systems**
-and explored different deep learning architectures for speech.
+Previously, I worked on **automatic speech recognition**, exploring
+end-to-end speech pipelines and deep learning approaches.
 
-Outside research, I enjoy turning ideas into working software.
+I enjoy taking ideas from exploration to implementation and continuously
+improving the systems I build.
+
+---
+
+## Experience
+
+<p align="center">
+  <img
+    src="./assets/experience.svg"
+    width="100%"
+    alt="Experience"
+  />
+</p>
+
+### Research Intern · IIT Kharagpur
+
+**Worked here — Jul 2026 to Present**
+
+_Mitigating Accent Bias in Speech Biomarkers using Voice Conversion Augmentation_
+
+Exploring speech biomarker models with an emphasis on accent-related
+variation and speaker diversity.
+
+---
+
+### Research Intern · IIT Kharagpur
+
+**Worked here — Aug 2025 to Oct 2025**
+
+_ASR Methods Based on Deep Learning Approaches_
+
+Worked on automatic speech recognition and explored deep learning-based
+approaches for speech processing.
 
 ---
 
@@ -53,48 +93,19 @@ Outside research, I enjoy turning ideas into working software.
   <img
     src="./assets/research.svg"
     width="100%"
-    alt="Speech and machine learning research"
+    alt="Research"
   />
 </p>
 
-My current research interests include **speech AI, deep learning,
-representation learning, and bias in intelligent systems**.
+My research interests span **speech AI, deep learning, representation
+learning, and bias in intelligent systems**.
 
-I have also contributed to academic publications and book chapters
-spanning machine learning applications and emerging technologies.
+I am particularly interested in how speech-based models behave across
+different speakers and conditions, and in approaches that improve their
+robustness and reliability.
 
----
-
-## Recognition
-
-<p align="center">
-  <img
-    src="./assets/recognition.svg"
-    width="100%"
-    alt="Recognition timeline"
-  />
-</p>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-
-<strong>XiBit Hackathon · 2025</strong><br>
-1st Place
-
-</td>
-<td align="center">
-
-<strong>XiBit Hackathon · 2026</strong><br>
-3rd Place
-
-</td>
-</tr>
-</table>
-
-</div>
+I have also contributed to academic publications and book chapters in
+areas involving machine learning and emerging technologies.
 
 ---
 
@@ -102,7 +113,7 @@ spanning machine learning applications and emerging technologies.
 
 <p align="center">
   <img
-    src="./assets/toolkit.svg"
+    src="./assets/toolkit-connected.svg"
     width="100%"
     alt="Technology toolkit"
   />
@@ -110,15 +121,15 @@ spanning machine learning applications and emerging technologies.
 
 <div align="center">
 
-<table>
+<table width="90%">
 <tr>
-<td align="center"><strong>Languages</strong></td>
+<td align="center" width="24%"><strong>Languages</strong></td>
 <td align="center">C · C++ · Python · JavaScript · TypeScript · SQL</td>
 </tr>
 
 <tr>
-<td align="center"><strong>Web</strong></td>
-<td align="center">React · Next.js · Node.js · Express · REST · WebRTC</td>
+<td align="center"><strong>Web & Backend</strong></td>
+<td align="center">React · Next.js · Node.js · Express · REST APIs · WebRTC</td>
 </tr>
 
 <tr>
@@ -127,8 +138,8 @@ spanning machine learning applications and emerging technologies.
 </tr>
 
 <tr>
-<td align="center"><strong>AI</strong></td>
-<td align="center">PyTorch · Transformers · NLP · ASR · Deep Learning</td>
+<td align="center"><strong>AI & ML</strong></td>
+<td align="center">PyTorch · Transformers · NLP · ASR · Deep Learning · Model Optimization</td>
 </tr>
 
 <tr>
@@ -145,10 +156,10 @@ spanning machine learning applications and emerging technologies.
   <img
     src="./assets/footer.svg"
     width="70%"
-    alt="Animated signal"
+    alt="Animated footer"
   />
 </p>
 
 <p align="center">
-  <sub>building quietly · learning continuously</sub>
+  <sub>learning · building · improving</sub>
 </p>

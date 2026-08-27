@@ -1,57 +1,62 @@
-<svg viewBox="0 0 1200 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Research</title>
+  <desc id="desc">Minimal animated research section header.</desc>
+  <defs>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".055"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="180" rx="28"/></clipPath>
+  </defs>
+  <rect width="1200" height="180" rx="28" fill="#0b0b0d"/>
+  <g clip-path="url(#clip)">
+    <g stroke="#fff" stroke-opacity=".035">
+      <path d="M0 45h1200M0 90h1200M0 135h1200"/>
+      <path d="M100 0v180M200 0v180M300 0v180M400 0v180M500 0v180M600 0v180M700 0v180M800 0v180M900 0v180M1000 0v180M1100 0v180"/>
+    </g>
+    <rect x="-180" width="180" height="180" fill="url(#scan)">
+      <animate attributeName="x" from="-180" to="1200" dur="13s" repeatCount="indefinite"/>
+    </rect>
 
-  <rect width="1200" height="180" rx="24" fill="#0b0b0d"></rect>
+    <text x="600" y="82" text-anchor="middle"
+      fill="#fff" font-family="Arial,Helvetica,sans-serif"
+      font-size="38" font-weight="600" letter-spacing="8">RESEARCH</text>
 
-  <g fill="none" stroke="#ffffff" stroke-opacity="0.12">
-    <circle cx="600" cy="90" r="58"></circle>
-    <circle cx="600" cy="90" r="38"></circle>
-    <circle cx="600" cy="90" r="18"></circle>
-  </g>
+    <rect x="330" y="105" width="540" height="1" fill="url(#line)"/>
 
-  <!-- signal -->
+    <!-- restrained research nodes -->
+    <g stroke="#fff" stroke-opacity=".16" fill="none">
+      <circle cx="600" cy="105" r="14"/>
+      <circle cx="545" cy="105" r="4"/>
+      <circle cx="655" cy="105" r="4"/>
+      <path d="M549 105h47M604 105h47"/>
+    </g>
 
-  <path d="M90 90
-       H260
-       C285 90 285 55 310 55
-       S335 125 360 125
-       S385 50 410 50
-       S435 130 460 130
-       S485 90 510 90
-       H690
-       S715 50 740 50
-       S765 130 790 130
-       S815 55 840 55
-       S865 90 890 90
-       H1110" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"></path>
-
-  <path d="M90 90
-       H260
-       C285 90 285 55 310 55
-       S335 125 360 125
-       S385 50 410 50
-       S435 130 460 130
-       S485 90 510 90
-       H690
-       S715 50 740 50
-       S765 130 790 130
-       S815 55 840 55
-       S865 90 890 90
-       H1110" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 380">
-
-    <animate attributeName="stroke-dashoffset" from="0" to="-772" dur="3.5s" repeatCount="indefinite"></animate>
-
-  </path>
-
-  <g fill="#ffffff">
-
-    <circle cx="600" cy="32" r="2">
-      <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"></animate>
+    <circle cx="600" cy="105" r="3" fill="#fff">
+      <animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="105" r="16" fill="none" stroke="#fff" stroke-opacity=".12">
+      <animate attributeName="r" values="16;27;16" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;0;.3" dur="3.8s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="600" cy="148" r="2">
-      <animate attributeName="r" values="2;5;2" dur="2s" begin="0.5s" repeatCount="indefinite"></animate>
+    <circle cx="545" cy="105" r="3" fill="#fff">
+      <animate attributeName="opacity" values=".2;.75;.2" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="655" cy="105" r="3" fill="#fff">
+      <animate attributeName="opacity" values=".75;.2;.75" dur="2.3s" repeatCount="indefinite"/>
     </circle>
 
+    <circle r="2.2" fill="#fff">
+      <animateMotion dur="5.5s" repeatCount="indefinite"
+        path="M545 105 L600 105 L655 105"/>
+      <animate attributeName="opacity" values="0;.8;0" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
-
 </svg>

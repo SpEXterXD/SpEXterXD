@@ -1,103 +1,71 @@
-<svg viewBox="0 0 1200 360" width="100%" xmlns="http://www.w3.org/2000/svg">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Nirmalya Pal</title>
+  <desc id="desc">Minimal animated identity graphic for software, AI and research.</desc>
   <defs>
-
-    <linearGradient id="fade" x1="0" x2="1">
-      <stop offset="0" stop-opacity="0"></stop>
-      <stop offset="0.5" stop-opacity="1"></stop>
-      <stop offset="1" stop-opacity="0"></stop>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".055"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
-      <feMerge>
-        <feMergeNode in="blur"></feMergeNode>
-        <feMergeNode in="SourceGraphic"></feMergeNode>
-      </feMerge>
-    </filter>
-
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="#0b0b0d"></rect>
+  <rect width="1200" height="360" rx="28" fill="#0b0b0d"/>
 
-  <!-- subtle grid -->
+  <g clip-path="url(#clip)">
+    <g stroke="#fff" stroke-opacity=".045" stroke-width="1">
+      <path d="M0 72h1200M0 144h1200M0 216h1200M0 288h1200"/>
+      <path d="M120 0v360M240 0v360M360 0v360M480 0v360M600 0v360M720 0v360M840 0v360M960 0v360M1080 0v360"/>
+    </g>
 
-  <g stroke="#ffffff" stroke-opacity="0.055" stroke-width="1">
+    <rect x="-220" y="0" width="220" height="360" fill="url(#scan)">
+      <animate attributeName="x" from="-220" to="1200" dur="12s" repeatCount="indefinite"/>
+    </rect>
 
-    <path d="M0 60H1200"></path>
-    <path d="M0 120H1200"></path>
-    <path d="M0 180H1200"></path>
-    <path d="M0 240H1200"></path>
-    <path d="M0 300H1200"></path>
+    <text x="600" y="128" text-anchor="middle"
+      fill="#fff" font-family="Arial,Helvetica,sans-serif"
+      font-size="54" font-weight="600" letter-spacing="6">NIRMALYA PAL</text>
 
-    <path d="M100 0V360"></path>
-    <path d="M200 0V360"></path>
-    <path d="M300 0V360"></path>
-    <path d="M400 0V360"></path>
-    <path d="M500 0V360"></path>
-    <path d="M600 0V360"></path>
-    <path d="M700 0V360"></path>
-    <path d="M800 0V360"></path>
-    <path d="M900 0V360"></path>
-    <path d="M1000 0V360"></path>
-    <path d="M1100 0V360"></path>
+    <text x="600" y="163" text-anchor="middle"
+      fill="#9a9a9f" font-family="Arial,Helvetica,sans-serif"
+      font-size="14" letter-spacing="3">SOFTWARE / AI / RESEARCH</text>
 
+    <rect x="365" y="190" width="470" height="1" fill="url(#line)"/>
+
+    <path d="M140 245
+      C190 245 190 214 240 214
+      S290 276 340 276
+      S390 232 440 232
+      S490 258 540 258
+      S590 220 640 220
+      S690 270 740 270
+      S790 238 840 238
+      S890 258 940 258
+      S990 224 1060 224"
+      fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="2"/>
+
+    <path d="M140 245
+      C190 245 190 214 240 214
+      S290 276 340 276
+      S390 232 440 232
+      S490 258 540 258
+      S590 220 640 220
+      S690 270 740 270
+      S790 238 840 238
+      S890 258 940 258
+      S990 224 1060 224"
+      fill="none" stroke="#fff" stroke-width="2"
+      stroke-dasharray="10 260">
+      <animate attributeName="stroke-dashoffset" from="0" to="-540" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+
+    <text x="600" y="324" text-anchor="middle"
+      fill="#65656b" font-family="Arial,Helvetica,sans-serif"
+      font-size="10" letter-spacing="4">LEARNING · BUILDING · IMPROVING</text>
   </g>
-
-  <!-- slow moving light -->
-
-  <rect x="-120" y="0" width="120" height="360" fill="url(#fade)" opacity="0.16">
-
-    <animate attributeName="x" from="-120" to="1200" dur="8s" repeatCount="indefinite"></animate>
-
-  </rect>
-
-  <!-- name -->
-
-  <text x="600" y="105" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="600" letter-spacing="5">
-    NIRMALYA PAL
-  </text>
-
-  <!-- disciplines -->
-
-  <text x="600" y="142" text-anchor="middle" fill="#9a9a9f" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3">
-    SOFTWARE / AI / RESEARCH
-  </text>
-
-  <line x1="370" y1="170" x2="830" y2="170" stroke="#ffffff" stroke-opacity="0.18"></line>
-
-  <!-- animated waveform -->
-
-  <path d="M100 235
-       C155 235 155 195 210 195
-       S265 275 320 275
-       S375 215 430 215
-       S485 250 540 250
-       S595 205 650 205
-       S705 265 760 265
-       S815 225 870 225
-       S925 250 980 250
-       S1035 205 1100 205" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"></path>
-
-  <path d="M100 235
-       C155 235 155 195 210 195
-       S265 275 320 275
-       S375 215 430 215
-       S485 250 540 250
-       S595 205 650 205
-       S705 265 760 265
-       S815 225 870 225
-       S925 250 980 250
-       S1035 205 1100 205" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 260" filter="url(#softGlow)">
-
-    <animate attributeName="stroke-dashoffset" from="0" to="-544" dur="4s" repeatCount="indefinite"></animate>
-
-  </path>
-
-  <!-- closing statement -->
-
-  <text x="600" y="325" text-anchor="middle" fill="#68686d" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="4">
-    LEARNING · BUILDING · IMPROVING
-  </text>
-
 </svg>
