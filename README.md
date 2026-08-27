@@ -28,21 +28,6 @@
   <a href="mailto:nirmalya03561@gmail.com">Email</a>
 </p>
 
-<br>
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│   software     systems     intelligence     research         │
-│                                                              │
-│   ────────────────────────────────────────────────────────   │
-│                                                              │
-│   currently exploring speech, machine learning & full-stack  │
-│   engineering through research and things I build.           │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## About
@@ -53,68 +38,26 @@ I am a Computer Science undergraduate interested in the space between
 My work moves between building full-stack applications and exploring
 machine learning problems, particularly around **speech and language**.
 
-I currently work as a research intern at **IIT Kharagpur**, where I explore
+I currently work as a research intern at **IIT Kharagpur**, exploring
 speech biomarker models and questions surrounding accent and speaker
 diversity.
 
 Previously, I worked on end-to-end **automatic speech recognition systems**
-and experimented with different deep learning architectures for speech.
+and explored different deep learning architectures for speech.
 
 Outside research, I enjoy turning ideas into working software.
 
 ---
 
-## Selected Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Live Streaming Platform
-
-A full-stack real-time streaming application exploring
-WebRTC, media infrastructure, authentication, data modelling
-and modern application architecture.
-
-<br>
-
-<a href="https://github.com/SpEXterXD/Streaming-SV">Repository</a>
-  ·   <a href="https://streaming-sv.vercel.app/">Live</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### Rizzume
-
-An AI-powered resume analysis application focused on
-understanding job descriptions, analysing resumes and
-generating contextual feedback.
-
-<br>
-
-<a href="https://github.com/SpEXterXD/Rizzume">Repository</a>
-  ·   <a href="https://puter.com/app/spexterxd-rizzume">Live</a>
-
-</td>
-</tr>
-</table>
-
----
-
 ## Research
 
-```text
-speech
-  │
-  ├── automatic speech recognition
-  │
-  ├── speech representations
-  │
-  ├── biomarker modelling
-  │
-  └── robustness across speakers
-```
+<p align="center">
+  <img
+    src="./assets/research.svg"
+    width="100%"
+    alt="Speech research"
+  />
+</p>
 
 My current research interests include **speech AI, deep learning,
 representation learning, and bias in intelligent systems**.
@@ -122,42 +65,73 @@ representation learning, and bias in intelligent systems**.
 I have also contributed to academic publications and book chapters
 spanning machine learning applications and emerging technologies.
 
-<a href="https://scholar.google.com/citations?user=aa9F2dAAAAAJ&hl=en">
-Google Scholar →
-</a>
+<p align="left">
+  <a href="https://scholar.google.com/citations?user=aa9F2dAAAAAJ&hl=en">
+    Google Scholar →
+  </a>
+</p>
 
 ---
 
 ## Recognition
 
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
 **XiBit Hackathon · 2025**
+
 1st Place
 
+</td>
+
+<td width="50%" valign="top">
+
 **XiBit Hackathon · 2026**
+
 3rd Place
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Toolkit
 
-```text
-Languages       C · C++ · Python · JavaScript · TypeScript · SQL
+<table width="100%">
+<tr>
+<td width="25%" valign="top"><strong>Languages</strong></td>
+<td>C · C++ · Python · JavaScript · TypeScript · SQL</td>
+</tr>
 
-Web             React · Next.js · Node.js · Express · REST · WebRTC
+<tr>
+<td valign="top"><strong>Web</strong></td>
+<td>React · Next.js · Node.js · Express · REST · WebRTC</td>
+</tr>
 
-Data            PostgreSQL · MongoDB · Prisma
+<tr>
+<td valign="top"><strong>Data</strong></td>
+<td>PostgreSQL · MongoDB · Prisma</td>
+</tr>
 
-AI              PyTorch · Transformers · NLP · ASR · Deep Learning
+<tr>
+<td valign="top"><strong>AI</strong></td>
+<td>PyTorch · Transformers · NLP · ASR · Deep Learning</td>
+</tr>
 
-Infrastructure  Docker · Git · GitHub · Postman
-```
+<tr>
+<td valign="top"><strong>Infrastructure</strong></td>
+<td>Docker · Git · GitHub · Postman</td>
+</tr>
+</table>
 
 ---
 
 <p align="center">
   <img
     src="./assets/signal.svg"
-    width="420"
+    width="65%"
     alt="Animated signal"
   />
 </p>
