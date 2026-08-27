@@ -113,7 +113,7 @@ areas involving machine learning and emerging technologies.
 
 <p align="center">
   <img
-    src="./assets/toolkit-connected.svg"
+    src="./assets/toolkit.svg"
     width="100%"
     alt="Technology toolkit"
   />
