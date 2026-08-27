@@ -75,25 +75,26 @@ spanning machine learning applications and emerging technologies.
   />
 </p>
 
-<table width="100%">
+<div align="center">
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td align="center">
 
-**XiBit Hackathon · 2025**
-
+<strong>XiBit Hackathon · 2025</strong><br>
 1st Place
 
 </td>
+<td align="center">
 
-<td width="50%" valign="top">
-
-**XiBit Hackathon · 2026**
-
+<strong>XiBit Hackathon · 2026</strong><br>
 3rd Place
 
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -107,32 +108,36 @@ spanning machine learning applications and emerging technologies.
   />
 </p>
 
-<table width="100%">
+<div align="center">
+
+<table>
 <tr>
-<td width="25%" valign="top"><strong>Languages</strong></td>
-<td>C · C++ · Python · JavaScript · TypeScript · SQL</td>
+<td align="center"><strong>Languages</strong></td>
+<td align="center">C · C++ · Python · JavaScript · TypeScript · SQL</td>
 </tr>
 
 <tr>
-<td valign="top"><strong>Web</strong></td>
-<td>React · Next.js · Node.js · Express · REST · WebRTC</td>
+<td align="center"><strong>Web</strong></td>
+<td align="center">React · Next.js · Node.js · Express · REST · WebRTC</td>
 </tr>
 
 <tr>
-<td valign="top"><strong>Data</strong></td>
-<td>PostgreSQL · MongoDB · Prisma</td>
+<td align="center"><strong>Data</strong></td>
+<td align="center">PostgreSQL · MongoDB · Prisma</td>
 </tr>
 
 <tr>
-<td valign="top"><strong>AI</strong></td>
-<td>PyTorch · Transformers · NLP · ASR · Deep Learning</td>
+<td align="center"><strong>AI</strong></td>
+<td align="center">PyTorch · Transformers · NLP · ASR · Deep Learning</td>
 </tr>
 
 <tr>
-<td valign="top"><strong>Infrastructure</strong></td>
-<td>Docker · Git · GitHub · Postman</td>
+<td align="center"><strong>Infrastructure</strong></td>
+<td align="center">Docker · Git · GitHub · Postman</td>
 </tr>
 </table>
+
+</div>
 
 ---
 
