@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <path d="M20 50
+       C70 50 70 35 120 35
+       S170 65 220 65
+       S270 30 320 30
+       S370 70 420 70
+       S470 38 520 38
+       S570 50 680 50" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"></path>
+
+  <path d="M20 50
+       C70 50 70 35 120 35
+       S170 65 220 65
+       S270 30 320 30
+       S370 70 420 70
+       S470 38 520 38
+       S570 50 680 50" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="8 160">
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-336" dur="3s" repeatCount="indefinite"></animate>
+
+  </path>
+
+</svg>

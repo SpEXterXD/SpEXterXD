@@ -1,0 +1,57 @@
+<svg viewBox="0 0 1200 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1200" height="180" rx="24" fill="#0b0b0d"></rect>
+
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12">
+    <circle cx="600" cy="90" r="58"></circle>
+    <circle cx="600" cy="90" r="38"></circle>
+    <circle cx="600" cy="90" r="18"></circle>
+  </g>
+
+  <!-- signal -->
+
+  <path d="M90 90
+       H260
+       C285 90 285 55 310 55
+       S335 125 360 125
+       S385 50 410 50
+       S435 130 460 130
+       S485 90 510 90
+       H690
+       S715 50 740 50
+       S765 130 790 130
+       S815 55 840 55
+       S865 90 890 90
+       H1110" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"></path>
+
+  <path d="M90 90
+       H260
+       C285 90 285 55 310 55
+       S335 125 360 125
+       S385 50 410 50
+       S435 130 460 130
+       S485 90 510 90
+       H690
+       S715 50 740 50
+       S765 130 790 130
+       S815 55 840 55
+       S865 90 890 90
+       H1110" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 380">
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-772" dur="3.5s" repeatCount="indefinite"></animate>
+
+  </path>
+
+  <g fill="#ffffff">
+
+    <circle cx="600" cy="32" r="2">
+      <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <circle cx="600" cy="148" r="2">
+      <animate attributeName="r" values="2;5;2" dur="2s" begin="0.5s" repeatCount="indefinite"></animate>
+    </circle>
+
+  </g>
+
+</svg>

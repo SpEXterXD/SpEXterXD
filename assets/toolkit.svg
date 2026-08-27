@@ -1,0 +1,27 @@
+<svg viewBox="0 0 1200 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1200" height="100" rx="24" fill="#0b0b0d"></rect>
+
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+    <line x1="80" y1="25" x2="1120" y2="25"></line>
+    <line x1="80" y1="50" x2="1120" y2="50"></line>
+    <line x1="80" y1="75" x2="1120" y2="75"></line>
+  </g>
+
+  <g fill="#ffffff">
+
+    <circle cx="140" cy="50" r="2">
+      <animate attributeName="cx" values="140;1060;140" dur="7s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <circle cx="900" cy="25" r="2">
+      <animate attributeName="cx" values="900;180;900" dur="5s" repeatCount="indefinite"></animate>
+    </circle>
+
+    <circle cx="360" cy="75" r="2">
+      <animate attributeName="cx" values="360;1000;360" dur="6s" repeatCount="indefinite"></animate>
+    </circle>
+
+  </g>
+
+</svg>

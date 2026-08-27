@@ -23,8 +23,6 @@
   ·
   <a href="https://leetcode.com/spexterxd">LeetCode</a>
   ·
-  <a href="https://scholar.google.com/citations?user=aa9F2dAAAAAJ&hl=en">Scholar</a>
-  ·
   <a href="mailto:nirmalya03561@gmail.com">Email</a>
 </p>
 
@@ -55,7 +53,7 @@ Outside research, I enjoy turning ideas into working software.
   <img
     src="./assets/research.svg"
     width="100%"
-    alt="Speech research"
+    alt="Speech and machine learning research"
   />
 </p>
 
@@ -65,15 +63,17 @@ representation learning, and bias in intelligent systems**.
 I have also contributed to academic publications and book chapters
 spanning machine learning applications and emerging technologies.
 
-<p align="left">
-  <a href="https://scholar.google.com/citations?user=aa9F2dAAAAAJ&hl=en">
-    Google Scholar →
-  </a>
-</p>
-
 ---
 
 ## Recognition
+
+<p align="center">
+  <img
+    src="./assets/recognition.svg"
+    width="100%"
+    alt="Recognition timeline"
+  />
+</p>
 
 <table width="100%">
 <tr>
@@ -98,6 +98,14 @@ spanning machine learning applications and emerging technologies.
 ---
 
 ## Toolkit
+
+<p align="center">
+  <img
+    src="./assets/toolkit.svg"
+    width="100%"
+    alt="Technology toolkit"
+  />
+</p>
 
 <table width="100%">
 <tr>
@@ -130,8 +138,8 @@ spanning machine learning applications and emerging technologies.
 
 <p align="center">
   <img
-    src="./assets/signal.svg"
-    width="65%"
+    src="./assets/footer.svg"
+    width="70%"
     alt="Animated signal"
   />
 </p>

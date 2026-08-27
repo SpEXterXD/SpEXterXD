@@ -1,55 +1,103 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 360" width="100%" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
+
     <linearGradient id="fade" x1="0" x2="1">
-      <stop offset="0%" stop-opacity="0"></stop>
-      <stop offset="50%" stop-opacity="1"></stop>
-      <stop offset="100%" stop-opacity="0"></stop>
+      <stop offset="0" stop-opacity="0"></stop>
+      <stop offset="0.5" stop-opacity="1"></stop>
+      <stop offset="1" stop-opacity="0"></stop>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="7" result="blur"></feGaussianBlur>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
       <feMerge>
         <feMergeNode in="blur"></feMergeNode>
         <feMergeNode in="SourceGraphic"></feMergeNode>
       </feMerge>
     </filter>
+
   </defs>
 
-  <rect width="1200" height="320" rx="24" fill="#0b0b0d"></rect>
+  <rect width="1200" height="360" rx="28" fill="#0b0b0d"></rect>
 
-  <g opacity="0.13" stroke="#ffffff">
-    <path d="M0 80H1200"></path>
-    <path d="M0 160H1200"></path>
+  <!-- subtle grid -->
+
+  <g stroke="#ffffff" stroke-opacity="0.055" stroke-width="1">
+
+    <path d="M0 60H1200"></path>
+    <path d="M0 120H1200"></path>
+    <path d="M0 180H1200"></path>
     <path d="M0 240H1200"></path>
-    <path d="M200 0V320"></path>
-    <path d="M400 0V320"></path>
-    <path d="M600 0V320"></path>
-    <path d="M800 0V320"></path>
-    <path d="M1000 0V320"></path>
+    <path d="M0 300H1200"></path>
+
+    <path d="M100 0V360"></path>
+    <path d="M200 0V360"></path>
+    <path d="M300 0V360"></path>
+    <path d="M400 0V360"></path>
+    <path d="M500 0V360"></path>
+    <path d="M600 0V360"></path>
+    <path d="M700 0V360"></path>
+    <path d="M800 0V360"></path>
+    <path d="M900 0V360"></path>
+    <path d="M1000 0V360"></path>
+    <path d="M1100 0V360"></path>
+
   </g>
 
-  <text x="70" y="105" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="600">
-    Nirmalya Pal
+  <!-- slow moving light -->
+
+  <rect x="-120" y="0" width="120" height="360" fill="url(#fade)" opacity="0.16">
+
+    <animate attributeName="x" from="-120" to="1200" dur="8s" repeatCount="indefinite"></animate>
+
+  </rect>
+
+  <!-- name -->
+
+  <text x="600" y="105" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="600" letter-spacing="5">
+    NIRMALYA PAL
   </text>
 
-  <text x="73" y="145" fill="#a1a1aa" font-family="Inter, Arial, sans-serif" font-size="17">
-    software · systems · speech · intelligence
+  <!-- disciplines -->
+
+  <text x="600" y="142" text-anchor="middle" fill="#9a9a9f" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="3">
+    SOFTWARE / AI / RESEARCH
   </text>
 
-  <path d="M70 205 C150 160, 200 250, 280 205
-           S410 160, 500 205
-           S650 250, 740 205
-           S890 160, 980 205
-           S1110 240, 1130 190" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.35"></path>
+  <line x1="370" y1="170" x2="830" y2="170" stroke="#ffffff" stroke-opacity="0.18"></line>
 
-  <path d="M70 205 C150 160, 200 250, 280 205
-           S410 160, 500 205
-           S650 250, 740 205
-           S890 160, 980 205
-           S1110 240, 1130 190" fill="none" stroke="#ffffff" stroke-width="3" filter="url(#glow)" stroke-dasharray="14 600">
+  <!-- animated waveform -->
 
-    <animate attributeName="stroke-dashoffset" from="0" to="-600" dur="4s" repeatCount="indefinite"></animate>
+  <path d="M100 235
+       C155 235 155 195 210 195
+       S265 275 320 275
+       S375 215 430 215
+       S485 250 540 250
+       S595 205 650 205
+       S705 265 760 265
+       S815 225 870 225
+       S925 250 980 250
+       S1035 205 1100 205" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"></path>
+
+  <path d="M100 235
+       C155 235 155 195 210 195
+       S265 275 320 275
+       S375 215 430 215
+       S485 250 540 250
+       S595 205 650 205
+       S705 265 760 265
+       S815 225 870 225
+       S925 250 980 250
+       S1035 205 1100 205" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="12 260" filter="url(#softGlow)">
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-544" dur="4s" repeatCount="indefinite"></animate>
+
   </path>
+
+  <!-- closing statement -->
+
+  <text x="600" y="325" text-anchor="middle" fill="#68686d" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="4">
+    LEARNING · BUILDING · IMPROVING
+  </text>
 
 </svg>
