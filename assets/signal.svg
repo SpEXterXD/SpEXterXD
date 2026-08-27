@@ -1,0 +1,24 @@
+<svg width="420" height="70" viewBox="0 0 420 70" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="420" height="70" rx="35" fill="#0b0b0d"></rect>
+
+  <path d="M25 35
+           C40 35 40 20 55 20
+           S70 50 85 50
+           S100 18 115 18
+           S130 52 145 52
+           S160 22 175 22
+           S190 48 205 48
+           S220 20 235 20
+           S250 50 265 50
+           S280 22 295 22
+           S310 48 325 48
+           S340 20 355 20
+           S370 38 395 35" fill="none" stroke="#ffffff" stroke-width="2">
+
+    <animate attributeName="stroke-dasharray" values="10 14;4 20;10 14" dur="2.5s" repeatCount="indefinite"></animate>
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-80" dur="2s" repeatCount="indefinite"></animate>
+  </path>
+
+</svg>

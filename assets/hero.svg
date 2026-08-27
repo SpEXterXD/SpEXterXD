@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0%" stop-opacity="0"></stop>
+      <stop offset="50%" stop-opacity="1"></stop>
+      <stop offset="100%" stop-opacity="0"></stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="#0b0b0d"></rect>
+
+  <g opacity="0.13" stroke="#ffffff">
+    <path d="M0 80H1200"></path>
+    <path d="M0 160H1200"></path>
+    <path d="M0 240H1200"></path>
+    <path d="M200 0V320"></path>
+    <path d="M400 0V320"></path>
+    <path d="M600 0V320"></path>
+    <path d="M800 0V320"></path>
+    <path d="M1000 0V320"></path>
+  </g>
+
+  <text x="70" y="105" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="600">
+    Nirmalya Pal
+  </text>
+
+  <text x="73" y="145" fill="#a1a1aa" font-family="Inter, Arial, sans-serif" font-size="17">
+    software · systems · speech · intelligence
+  </text>
+
+  <path d="M70 205 C150 160, 200 250, 280 205
+           S410 160, 500 205
+           S650 250, 740 205
+           S890 160, 980 205
+           S1110 240, 1130 190" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.35"></path>
+
+  <path d="M70 205 C150 160, 200 250, 280 205
+           S410 160, 500 205
+           S650 250, 740 205
+           S890 160, 980 205
+           S1110 240, 1130 190" fill="none" stroke="#ffffff" stroke-width="3" filter="url(#glow)" stroke-dasharray="14 600">
+
+    <animate attributeName="stroke-dashoffset" from="0" to="-600" dur="4s" repeatCount="indefinite"></animate>
+  </path>
+
+</svg>
