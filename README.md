@@ -51,7 +51,7 @@ Previously, I worked on **automatic speech recognition**, exploring
 end-to-end speech pipelines and deep learning approaches.
 
 I enjoy taking ideas from exploration to implementation and continuously
-improving the systems I build.
+improving my knowledge.
 
 ---
 
@@ -103,10 +103,6 @@ learning, and bias in intelligent systems**.
 I am particularly interested in how speech-based models behave across
 different speakers and conditions, and in approaches that improve their
 robustness and reliability.
-
-I have also contributed to academic publications and book chapters in
-areas involving machine learning and emerging technologies.
-
 ---
 
 ## Toolkit
