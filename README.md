@@ -97,7 +97,7 @@ approaches for speech processing.
   />
 </p>
 
-My research interests span **speech AI, deep learning, representation
+My research interests span across **speech AI, deep learning, representation
 learning, and bias in intelligent systems**.
 
 I am particularly interested in how speech-based models behave across
